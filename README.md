@@ -8,7 +8,7 @@ The popularity of musical actors and ticket sales are closely related. However, 
 DOI: https://doi.org/10.9728/dcs.2025.26.3.739
 
 ## Data Availability
-The datasets analyzed during the current study are not publicly available due to copyright restrictions (or privacy concerns).
+The datasets analyzed during the current study are not publicly available due to copyright restrictions.
 
 ## Data Format
 Each CSV file should contain the following columns:
