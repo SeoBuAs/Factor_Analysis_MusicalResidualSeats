@@ -21,3 +21,51 @@ date, seat, cast1, cast2, cast3, cast4, weekend, day, dc, evt
 - `day`: Day of week
 - `dc`: Discount applied
 - `evt`: Event indicator
+
+## 📁 Project Structure
+
+```
+📦 musical-prediction/
+├── 📄 Data Files
+│   ├── bare.csv
+│   ├── gentleman.csv
+│   ├── hades.csv
+│   ├── salieri.csv
+│   └── versailles.csv
+│
+├── 🐍 Main Scripts
+│   ├── musical_all_versions.py    # Integrated execution for all versions
+│   ├── run_single_version.py      # Single version execution
+│   └── compare_versions.py        # Result comparison and visualization
+│
+├── 🔧 Shell Scripts  
+│   └── run_all_versions.sh        # Automated execution script
+│
+└── 📊 Results
+    └── results/                   # Experiment results storage
+```
+
+## 💻 Usage Examples
+
+### 1. Full Experiment
+
+```bash
+# Run all 4 versions
+./run_all_versions.sh
+```
+
+### 2. Individual Execution
+
+```python
+# Direct execution in Python
+from musical_all_versions import main
+
+# All versions
+main(versions_to_run='all')
+
+# Specific versions only
+main(versions_to_run=['normal', 'smote'])
+
+# Single version
+main(versions_to_run='smote')
+```
